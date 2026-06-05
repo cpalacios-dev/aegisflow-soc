@@ -1,0 +1,33 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+Env/
+
+# Archivos de configuración local y credenciales (CRÍTICO)
+.env
+*.json
+!credentials.json.example
+!.env.example
+
+# Python cache y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+cells
+.pytest_cache/
+
+# IDEs y Editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivo temporal del árbol de directorios
+tree.txt

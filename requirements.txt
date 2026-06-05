@@ -1,0 +1,25 @@
+# --- Core Framework & Agents ---
+langgraph>=0.1.0
+langgraph-supervisor>=0.0.1
+langchain-openai>=0.1.0
+langchain>=0.2.0
+pydantic>=2.0.0
+
+# --- Ciberseguridad & Integraciones API ---
+vt-py>=0.18.0
+langchain-tavily>=0.1.0
+langchain-community>=0.2.0
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# --- Servidor API (Backend) ---
+fastapi>=0.110.0
+uvicorn>=0.28.0
+
+# --- Interfaz de Usuario (Frontend) ---
+streamlit>=1.32.0
+requests>=2.31.0
+
+# --- Utilidades ---
+python-dotenv>=1.0.0
